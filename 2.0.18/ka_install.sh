@@ -12,3 +12,4 @@ make
 sudo make install
 systemctl daemon-reload
 systemctl enable keepalived
+sudo useradd -g users -M keepalived_script
