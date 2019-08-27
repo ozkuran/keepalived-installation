@@ -29,16 +29,16 @@ sudo ./ka_install.sh
 #### 1. Update configuration file 
 Load keepalived.cfg file.
 ```
-sudo nano /usr/local/etc/keepalived/keepalived.conf
+sudo nano /etc/keepalived/keepalived.conf
 ```
-Save and quit document. Then start Keepalived service.
+Make required changes depending on your configuration. Save and quit document. Then start Keepalived service.
 
 ```
-    sudo systemctl start keepalived
+sudo systemctl start keepalived
 ```
 
 Check status of Keepalived.
 
 ```
-    sudo systemctl status keepalived
+sudo systemctl status keepalived
 ```
