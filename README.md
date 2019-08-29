@@ -1,10 +1,10 @@
 # [Keepalived](https://www.keepalived.org/ "Keepalived Homepage") Install Script
 
-Version 0.0.1
+## v0.0.1
 
 This is a simple installation script for different versions of Keepalived. Initially created for yum based linux distros and tested for CentOS 7.
 
-## Current versions
+## Available releases
 
 #### CentOS 7
 - 2.0.18: https://raw.githubusercontent.com/ozkuran/keepalived-installation/master/2.0.18/ka_install.sh
